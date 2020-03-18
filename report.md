@@ -68,6 +68,7 @@ printf("250");
 ```
            Experiment No:5
 Write a C program to print a big ' C '.
+```C
  ######
 ##    ##
 #
@@ -77,6 +78,7 @@ Write a C program to print a big ' C '.
 #
 ##    ##
  ######
+ ```
  ```C
  #include<stdio.h>
 int main()
@@ -93,6 +95,20 @@ int main()
 }
 ```
               Experiment No: 6
- 
-
-
+ Design a code to execute addition of two numbers.
+```C
+#include<stdio.h>
+int main()
+{
+int a,b,sum;
+printf("enter the value of a :");
+scanf("%d",&a);
+printf("enter the value of b :");
+scanf("%d",&b);
+sum=a+b;
+printf("sum:%d",sum);
+}
+```
+            Experiment No: 7
+Write a computer program in C, which takes two numbers (integers) as input and print the smaller number.
+```C
