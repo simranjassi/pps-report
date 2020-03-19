@@ -15,7 +15,7 @@ Batch: 2019-2023
 
 ----------
 
-               Experiment No: 1
+                                                          EXPERIMENT NO: 1
 Write a code to print name of the collage.
 ```C
 #include<stdio.h>
@@ -24,7 +24,7 @@ int main()
     puts("Guru Nanak Dev Engineering Collage");
 }
 ```
-                Experiment No: 2
+                                                          EXPERIMENT NO: 2
 Write a code to print the word 'Hello'.
 ```C
 #include<stdio.h>
@@ -33,7 +33,7 @@ int main()
     puts("Hello");
 }
 ```
-                Experiment No: 3
+                                                         EXPERIMENT NO: 3
 Design a code to execute addition of two numbers.
 ```C
 #include<stdio.h>
@@ -48,7 +48,7 @@ sum=a+b;
 printf("sum:%d",sum);
 }
 ```
-               Experiment No: 4
+                                                       EXPERIMENT NO: 4
 Write a computer program in C, which takes two numbers (integers) as input and print the smaller number.
 ```C
 #include<stdio.h>
@@ -66,7 +66,7 @@ printf("250");
 }
      }
 ```
-              Experiment No:5
+                                                     EXPERIMENT NO:5
 Write a C program to print a big ' C '.
 ```C
  ######
@@ -94,7 +94,7 @@ int main()
     puts(" ######");
 }
 ```
-                Experiment No: 6
+                                                        EXPERIMENT NO: 6
  Design a code to execute addition of two numbers.
 ```C
 #include<stdio.h>
@@ -109,7 +109,7 @@ sum=a+b;
 printf("sum:%d",sum);
 }
 ```
-                 Experiment No: 7
+                                                       EXPERIMENT NO: 7
 Write a computer program in C, which takes two numbers (integers) as input and print the smaller number.
 ```C
 #include<stdio.h>
@@ -128,7 +128,7 @@ int main()
      }
 }
 ```
-                   Experiment No: 8
+                                                     EXPERIMENT NO: 8
 Write a C program to print the following character in a reverse way without using any predefined function and header file.
 ```C
 #include<stdio.h>
@@ -141,7 +141,7 @@ int main()
     printf("%c%c%c",char3,char2,char1);
 }
 ```
-                    Experiment No: 9
+                                                    EXPERIMENT NO: 9
 Write a C program to compute the perimeter and area of a rectangle with a height of 7 inches and width of 5 inches.
 ```C
 #include<stdio.h>
@@ -157,7 +157,7 @@ int main()
     printf("\n area of the rectangle : %d square inches",area);
 }
 ```
-                  Experiment No: 10
+                                                  EXPERIMENT NO: 10
 Design a code to execute addition of two numbers if the sum is even.
 ```C
 #include<stdio.h>
@@ -179,7 +179,7 @@ int main()
     }
 }
 ```
-                       Experiment No: 11
+                                                     EXPERIMENT NO: 11
  Design a code to mark 'Present' if student entered in a hall before 8:35 and marked 'Late' before 8:45 otherwise marked 'Absent'.If user will enter the time between 8:00 - 8:14 then display a message 'Sorry Gate closed' and if user  will enter the time less than 8:00 then display a message 'Its wrong Time'.
  ```C
  #include<stdio.h>
@@ -221,7 +221,7 @@ int main()
    }
 }}}
 ```
-                  Experiment No: 12
+                                                     EXPERIMENT NO: 12
 Write a code to convert temperature from Fahrenheit scale to centigrade scale.
 ```C
 #include<stdio.h>
@@ -235,7 +235,7 @@ int main()
     printf("TEMPERATURE IN CENTIGRADE : %f",cent);
 }
 ```
-                 Experiment No: 13
+                                                     EXPERIMENT NO: 13
 Write a code to find the factorial of a number.
 ```C
 #include<stdio.h>
@@ -250,7 +250,7 @@ int main()
     printf("factorial of %d = %d",a,f);
 }
 ```
-                 Experiment No: 14
+                                                 EXPERIMENT NO: 14
 Write a code to print table of any number.
 ```C
 #include<stdio.h>
@@ -264,7 +264,7 @@ int main()
     printf("\n%d x %d=%d",n,i,n*i);}
 }
 ```
-               Experiment No: 15
+                                               EXPERIMENT NO: 15
 Write a code to display the number is prime or not.
 ```C
 #include<stdio.h>
@@ -291,7 +291,7 @@ int main()
     }
 }
 ```
-                  Experiment No: 16
+                                                      EXPERIMENT NO: 16
 Write a program to swap two numbers using a temporary variable.
 ```C
 #include<stdio.h>
@@ -310,7 +310,7 @@ int main()
     printf("\n after swapping secong no. is %d",b); 
 }
 ```
-                Experiment No: 17
+                                                   EXPERIMENT NO: 17
 Write a code to print a range of prime number between some range.
 ```C
 #include<stdio.h>
@@ -333,7 +333,9 @@ int main()
         printf("\n");
         return 0;
 }
-``` 
+```   
+                                                        EXPERIMENT NO: 18
+                                                        
 
 
 
