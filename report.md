@@ -33,7 +33,7 @@ int main()
     puts("Hello");
 }
 ```
-                                                         EXPERIMENT NO: 3
+                                                        # EXPERIMENT NO: 3
 Design a code to execute addition of two numbers.
 ```C
 #include<stdio.h>
@@ -48,7 +48,7 @@ sum=a+b;
 printf("sum:%d",sum);
 }
 ```
-                                                       EXPERIMENT NO: 4
+                                                      # EXPERIMENT NO: 4
 Write a computer program in C, which takes two numbers (integers) as input and print the smaller number.
 ```C
 #include<stdio.h>
