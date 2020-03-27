@@ -447,8 +447,96 @@ int main()
       break;  } 
          return 0;
          }
-         ```
-                                                        
+```
+#                                                    Experiment No:21
+Program to print sum of A.P series.
+```C
+#include<stdio.h> 
+    int main() 
+    {    
+    int N,x;                //N = length of the series, x = second term or difference 
+    float a1,a2,d,S;        //a1 = first or last term 
+                            //a2 = second term, d = differenc 
+                            //S = sum of the terms 
+    printf("\n\nEnter N of the series: "); 
+    scanf("%d", &N); 
+    printf("Enter first or last term of the series: ");
+    scanf("%f",&a1);
+    tf("\nEnter 1 for Second term, Enter 2 for difference\n\nEnter 1 or 2: "); 
+    scanf("%d", &x); 
+ 
+ 
+    if(x==1) 
+      {  printf("\nEnter the second term: "); 
+         scanf("%f", &a2); 
+         d = a2-a1; 
+         S = N*(2*a1 + (N-1)*d) /2; 
+         printf("\nSum of given series = %.2f", S);  } 
+ 
+    else if(x==2) 
+      {  printf("\nEnter the difference :");
+      f", &d); 
+         S = N*(2*a1 + (N-1)*d) /2; 
+         printf("\nSum of given series = %.2f",S);}
+   else
+   printf("enter the valid input(1 or 2)");
+   return 0;
+   } 
+```
+#                                                       Experiment No: 22     
+ Program to find Sum of First 10 Natural numbers using FOR LOOP.
+ ```C
+ #include<stdio.h>
+ #include<math.h>
+ int main()
+ {
+   int x,ans; 
+     for(x=1;x<=10;x++) 
+       { 
+        ans += x;
+        }
+  printf("\n\n sum of first 10 natural numbers is %d:",ans);
+  return 0;
+  } 
+```
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+          
+             
 
 
 
