@@ -381,7 +381,7 @@ Program to print a pyramid.
  ```
                                                        EXPERIMENT NO: 20
 Program to find volume.
-``C
+```C
 #include<stdio.h> 
     int main() 
     { 
@@ -392,7 +392,8 @@ Program to find volume.
     float Cr,Ch,cylinder;              //Cr = Radius, Ch = Height, cylinder = Volume (cylinder)
     float CoR,CoH,cone;                //CoR = Radius, CoH = Height, cone=volume(cone)
     
-    printf("\n\nPress 1 (Sphere) \nPress 2 (Cube) \nPress 3 (Rectangle) \n\ Press 4 (Cylinder) \nPress 5 (Cone) \n\nEnter the shape,you wants to find the volume);
+    printf("\n\nPress 1 (Sphere) \nPress 2 (Cube) \nPress 3 (Rectangle) \n\ Press 4 (Cylinder) \nPress 5 (Cone) \n\nEnter the shape,
+    you wants to find the volume);
     scanf("%d", &a); 
  
     switch(a) 
@@ -446,6 +447,7 @@ Program to find volume.
       break;  } 
          return 0;
          }
+         ```
                                                         
 
 
