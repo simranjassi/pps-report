@@ -335,6 +335,117 @@ int main()
 }
 ```   
                                                         EXPERIMENT NO: 18
+Write a code of 'FIZZ-BUZZ'.
+```C
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  int i;
+  scanf("%d",&i);
+  if(i%15==0)
+    printf("FizzBuzz\t");
+  else if((i%3)==0)
+    printf("Fizz\t");
+      else if((i%5)==0)
+          printf("buzz\t");
+    else
+    printf("%d\t",i);
+    return 0;
+    }
+```
+                                                     EXPERIMENT NO: 19
+Program to print a pyramid.
+```C
+     #include<stdio.h> 
+     int main() 
+     { 
+     int i,j,n; 
+     printf("\nEnter number of Rows: "); 
+     scanf("%d",&n); 
+     printf("\n"); 
+      
+     for(i=1; i<=n; i++) 
+     { 
+         for(j=1; j<=2*n-1; j++) 
+         { 
+         if(j>=n-(i-1) && j<=n+(i-1)) 
+         printf("*"); 
+         else 
+         printf(" "); 
+         } 
+         printf("\n"); 
+         } 
+         return 0;
+         }
+ ```
+                                                       EXPERIMENT NO: 20
+Program to find volume.
+``C
+#include<stdio.h> 
+    int main() 
+    { 
+    int a;                             //a = Code of the shape      
+    float sphere,Sr,pi=22.0/7.0;       //Cr = radius of circle, sphere = volume (sphere)
+    float Cs,cube;                     //Cs = side, cude = volumre (cube) 
+    float Rl,Rb,Rh,rectangle;          //Rl = length, Rb = breadth, Rh = Heigth, rectangle = volume(cuboid)
+    float Cr,Ch,cylinder;              //Cr = Radius, Ch = Height, cylinder = Volume (cylinder)
+    float CoR,CoH,cone;                //CoR = Radius, CoH = Height, cone=volume(cone)
+    
+    printf("\n\nPress 1 (Sphere) \nPress 2 (Cube) \nPress 3 (Rectangle) \n\ Press 4 (Cylinder) \nPress 5 (Cone) \n\nEnter the shape,you wants to find the volume);
+    scanf("%d", &a); 
+ 
+    switch(a) 
+    { 
+    case 1: 
+      if(a==1) 
+      { printf("\nEnter the radius of Sphere: "); 
+      scanf("%f", &Sr); 
+      sphere = 4*pi*Sr*Sr*Sr/3; 
+      printf("Volume of Shpere = %.4f", sphere); 
+      break;  } 
+ 
+    case 2: 
+      if(a==2) 
+      { printf("\nEnter the Side of Cube: "); 
+      scanf("%f", &Cs); 
+      cube = Cs*Cs*Cs; 
+      printf("Volume of Cube = %.4f", cube); 
+      break;  } 
+         
+    case 3: 
+      if(a==3) 
+      {  printf("\nEnter the length of Rectangle: "); 
+      scanf("%f", &Rl); 
+      printf("Enter the breadth of Rectangle: "); 
+      scanf("%f", &Rb); 
+      printf("Enter the Height of Rectangle: "); 
+      scanf("%f", &Rh); 
+      rectangle = Rl*Rb*Rh; 
+      printf("Volume of Rectangle = %.4f", rectangle); 
+      break;  } 
+         
+    case 4: 
+      if(a==4) 
+      {  printf("\nEnter the Radius of Cylinder: "); 
+      scanf("%f", &Cr); 
+      printf("Enter the Height of Cylinder: "); 
+      scanf("%f", &Ch); 
+      cylinder = pi*Cr*Cr*Ch; 
+      printf("Volume of Cylinder = %.4f", cylinder); 
+      break;  } 
+         
+    case 5: 
+      if(a==5) 
+      {  printf("\nEnter the Radius of Cone: "); 
+      scanf("%f", &CoR); 
+      printf("Enter the Height of Cone: "); 
+      scanf("%f", &CoH); 
+      cone = pi*CoR*CoR*CoH/3; 
+      printf("Volume of Cone = %.4f", cone); 
+      break;  } 
+         return 0;
+         }
                                                         
 
 
